@@ -80,8 +80,8 @@ def get_exposure(symbol):
         return exposure
 if __name__ == '__main__':
 
-        SYMBOL = 'GBPUSD'
-        VOLUME = 0.70
+        SYMBOL = 'EURUSD'
+        VOLUME = 1
         TIMEFRAME = mt5.TIMEFRAME_M1
         SMA_PERIOD = 10
         DEVIATION = 20
